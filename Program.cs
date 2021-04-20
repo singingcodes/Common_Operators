@@ -21,16 +21,16 @@ namespace Common_Operators
             // itinerary operator
              int x = 20;
             int y = 10;
-            Console.WriteLine(++x);
-            Console.WriteLine(--y);
-            // string result = x > y? "x is greater than y" : "x is less than y";
-            // string result = x > y? "x is greater than y" : "x is less than y";
-            // Console.WriteLine(result);
-            // // if (x > y){
-            //     Console.WriteLine("correct");
-            // }else {
-            //     Console.WriteLine("not correct");
-            // }
+            // Console.WriteLine(++x);
+            // Console.WriteLine(--y);
+            string result = x > y? "x is greater than y" : "x is less than y";
+            //string result = x > y? "x is greater than y" : "x is less than y";
+            Console.WriteLine(result);
+            if (x > y){
+                Console.WriteLine("correct");
+            }else {
+                Console.WriteLine("Incorrect");
+            }
             
         }
     }
